@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import '../navbar/Navbar.css';
+import AbdulRahmanPhoto from '../../assets/images/AbdulRahmanKhawagaPhoto2.jpg';
 
 export default function Hero() {
   return (
@@ -19,7 +20,7 @@ export default function Hero() {
           <div className="col-lg-6 col-md-6">
             <div className="hero-image text-center d-flex justify-content-end">
               <img
-                src="/src/assets/images/AbdulRahmanKhawagaPhoto2.jpg"
+                src={AbdulRahmanPhoto}
                 alt="AbdulRahman Khawaga"
                 className="profile-image"
               />
